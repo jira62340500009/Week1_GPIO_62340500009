@@ -141,7 +141,7 @@ int main(void)
 			}
 			if (count == 3)
 			{
-				LED1_HalfPeriod = 125;
+				LED1_HalfPeriod = 166;
 			}
 
 			Switchstate_2[0] = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_3);
